@@ -1,0 +1,38 @@
+<html>
+ <head>
+ <title>javascript</title>
+ <script>
+const numbers = [4005, 400, 9000, 16000, 2005];
+let txt = "";
+numbers.forEach(myFunction);
+
+function myFunction(value, index, array) {
+  txt += value + "<br>";
+  console.log(txt)
+}
+console.log(txt)
+//map
+var discount=10;
+var newnumbers=numbers.map(myfunction2)
+function myfunction2(value,index,array){
+    var disc=value/100;
+
+    return value-(disc*10);
+}
+console.log(newnumbers)
+//flatmap
+const myArr = [1, 2, 3, 4, 5,6];
+const newArr = myArr.flatMap((x) => x * 2);
+console.log(newArr);
+//filter
+const filters=myArr.filter(function (less){return less<5});
+console.log(filters)
+
+
+ </script
+ </head>
+ <body>
+ <h1>java script</h1>
+ </body>
+ 
+</html>

@@ -1,0 +1,28 @@
+<html>
+ <head>
+ <title>javascript</title>
+ 
+
+ </head>
+ <body>
+ <h1>java script</h1>
+ <p id="demo"></p>
+ <script>
+    
+  let p=new Promise((resolve,reject)=>{
+    let a=1+2
+    if (a==3){
+        resolve("sucess")
+    }else{
+        reject("failed")
+    }
+  })
+
+  p.then(
+  function(value) {console.log (" code if successful ") },
+  function(error) { console.log( "code if some error" ) }
+);
+  </script>
+ </body>
+ 
+</html>

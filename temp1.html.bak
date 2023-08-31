@@ -1,0 +1,33 @@
+<html>
+ <head>
+ <title>javascript</title>
+ <script>
+  var book=[20,34,21,45,3,567,21];
+  book.reverse();
+  console.log(book);
+  function compare(value1,value2){
+  if (value1>value2)
+  {return 1;
+  }
+  else if(value1<value2){
+  return -1;
+  }
+  else{
+  return 0;}
+  }
+  
+  
+  book.sort(compare);
+  console.log(book);
+  var disc=10;
+  var newpr=book.map(function(price){
+  return price-(price*10/100);
+  });
+  console.log(newpr);
+ </script
+ </head>
+ <body>
+ <h1>java script</h1>
+ </body>
+ 
+</html>

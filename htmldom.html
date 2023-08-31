@@ -1,0 +1,27 @@
+<html>
+ <head>
+ <title>javascript</title>
+ 
+ </head>
+ <body>
+ <h1>java script</h1>
+ <div>
+<h2>cm to inches</h2>
+<input type="text" id="input" placeholder="enter the length in cm">
+<button type="submit" onclick="convert()">Convert to inches</button>
+<h1 id="done"><h1>
+
+
+ </div>
+ <script>
+    function convert(){
+        let val=Number(document.getElementById("input").value)
+        let result=val/2.54;
+        let result1=document.getElementById("done") 
+        result1.innerHTML=result.toFixed(3)+ "inches"
+    }
+    
+</script
+ </body>
+ 
+</html>

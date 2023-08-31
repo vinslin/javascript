@@ -1,0 +1,31 @@
+<html>
+ <head>
+ <title>javascript</title>
+ 
+
+ </head>
+ <body>
+ <h1>java script</h1>
+ <p id="demo"></p>
+ <script>
+    
+  let reach=new Promise((resolve,reject)=>{
+    const reach=true
+    if (reach){
+        setTimeout(resolve,3000,"sucess reach the home")
+    }else{
+        reject("failed to reach the home")
+    }
+  })
+
+ async function syncdemo(){
+    console.log("hi")
+    let ro=await reach
+    console.log(ro)
+    console.log("never ever give up!!!!")
+ }
+ syncdemo();
+  </script>
+ </body>
+ 
+</html>
